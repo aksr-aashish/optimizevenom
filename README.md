@@ -1,31 +1,7 @@
-<p align="center">
-  <a href="https://github.com/r00t-3xp10it//github-readme-stats">
-    <img
-      align="center"
-      height="165"
-      src="https://github-readme-stats.vercel.app/api?username=r00t-3xp10it&count_private=true&show_icons=true&custom_title=Github%20Status&hide=issues&theme=radical"
-    />
-  </a>
-</p>
 
-[![Version](https://img.shields.io/badge/VENOM-1.0.17-brightgreen.svg?maxAge=259200)]()
-[![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
-[![Build](https://img.shields.io/badge/Supported_OS-Linux-orange.svg)]()
-![licence](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)
-![lastupdated](https://img.shields.io/aur/last-modified/venom)
-![languages](https://img.shields.io/github/languages/count/r00t-3xp10it/venom)
-![Open issues](https://img.shields.io/github/issues/r00t-3xp10it/venom?color=red&label=open%20issues)
+    
 
 
-
-## VENOM 1.0.17 - metasploit Shellcode generator/compiller
-    Version release : v1.0.17
-    Author : pedro ubuntu  [ r00t-3xp10it ]
-    Codename: Aconite (Aconitum napellus)
-    Distros Supported : Linux Ubuntu, Kali, Mint, Parrot OS
-    Suspicious-Shell-Activity (SSA) RedTeam develop @2019
-
-![banner](https://user-images.githubusercontent.com/23490060/71019038-8cd1fa80-20f1-11ea-9cb3-795020d24481.png)
 
 
 #### LEGAL DISCLAMER

